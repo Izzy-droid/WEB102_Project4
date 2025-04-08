@@ -1,0 +1,24 @@
+body{
+  background-color:beige;
+}
+
+.left-col, .right-col{
+  background-color:gray;
+  width: 20em;
+  height: 45em;
+  border-radius: 5px;
+}
+
+.middle-col{
+  background-color:  #A9A9A9;
+  width: 35em;
+  height: 47em;
+  border-radius: 10px;
+}
+
+.cols-arrange{
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
